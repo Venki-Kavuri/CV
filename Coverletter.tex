@@ -1,0 +1,63 @@
+\let\nofiles\relax
+\documentclass[10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\usepackage{tgpagella}
+\usepackage[T1]{fontenc}
+\usepackage[letterpaper,bindingoffset=0.2in,left=0.75in,right=0.75in,top=0.5in,bottom=0.5in,footskip=.25in]{geometry}
+\usepackage{blindtext}
+\usepackage{fontawesome}
+\usepackage{fontspec}
+\usepackage{marvosym}
+
+
+\usepackage[backend=bibtex,
+style=numeric,
+style=alphabetic,
+bibencoding=ascii,
+defernumbers=true,
+style=ieee,
+sorting=nyt
+]{biblatex}
+\addbibresource{cv_1}
+\nocite{*}
+
+
+\newsectionwidth{0pt} % Stops section indenting
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND ADDRESS(ES) SECTION
+%----------------------------------------------------------------------------------------
+%\setlength{\parindent}{0pt}
+\begin{document}
+
+
+%\sffamily%
+{\small\begin{tabular}[c]{l}
+ 4404 Walnut St, APT 3R\\
+ Philadelphia, PA 19104 \\
+\end{tabular}}\hfill%
+{\Large\bfseries\begin{tabular}[c]{c}
+VENKAIAH C. KAVURI
+\end{tabular}}\hfill%
+{\small\begin{tabular}[c]{r}
+\Telefon (215) 898-5148 \\
+\Mobilefone (814) 431-2033 \\
+\Email venk@sas.upenn.edu\\
+\faLinkedinSign\,\faGithub
+\end{tabular}}%%
+\vspace{0.05in} 
+\rule{\textwidth}{1pt}
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+\vspace{-7mm} 
+
+
+
+
+\end{resume} 
+\end{document}
