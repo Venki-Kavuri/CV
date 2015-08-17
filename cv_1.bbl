@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.3 $
+% $ biblatex version 2.5 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,21 +16,31 @@
   {}
 \endgroup
 
-\entry{krishnamurthy2010detectability}{inproceedings}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Krishnamurthy}{K.}%
-     {Venkatagiri}{V.}%
-     {}{}%
-     {}{}}%
+\entry{kavuri2014optical}{inproceedings}{}
+  \name{author}{6}{}{%
     {{}%
      {Kavuri}{K.}%
-     {Venkaiah}{V.}%
+     {Venkaiah~C}{V.~C.}%
      {}{}%
      {}{}}%
     {{}%
-     {Tian}{T.}%
-     {Fenghua}{F.}%
+     {Kapur}{K.}%
+     {Payal}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morgan}{M.}%
+     {Monica}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cadeddu}{C.}%
+     {Jeffrey}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roehrborn}{R.}%
+     {Claus}{C.}%
      {}{}%
      {}{}}%
     {{}%
@@ -42,14 +52,14 @@
   \list{organization}{1}{%
     {Optical Society of America}%
   }
-  \strng{namehash}{KVKVTF+1}
-  \strng{fullhash}{KVKVTFLH1}
-  \field{sortinit}{2}
+  \strng{namehash}{KVCKPMM+1}
+  \strng{fullhash}{KVCKPMMCJRCLH1}
+  \field{sortinit}{K}
   \field{booktitle}{Biomedical Optics}
-  \field{pages}{BTuD103}
-  \field{title}{Detectability of Hemodynamic Response to Thermal Pain in
-  Pre-Frontal Cortex Using Diffuse Optical Tomography}
-  \field{year}{2010}
+  \field{pages}{BM3A\bibrangedash 28}
+  \field{title}{Optical properties of Ex-Vivo Prostate Tissues and the Design
+  of Trans-Rectal Ultrasound Coupled Optical Probe}
+  \field{year}{2014}
 \endentry
 
 \entry{kavuri2012comparison}{inproceedings}{}
@@ -75,7 +85,7 @@
   }
   \strng{namehash}{KVCLZJLH1}
   \strng{fullhash}{KVCLZJLH1}
-  \field{sortinit}{2}
+  \field{sortinit}{K}
   \field{booktitle}{Biomedical Optics}
   \field{pages}{BTu3A\bibrangedash 22}
   \field{title}{Comparison of L1 and L2 Regularizations in Diffuse Optical
@@ -106,7 +116,7 @@
   }
   \strng{namehash}{KVCLZJLH1}
   \strng{fullhash}{KVCLZJLH1}
-  \field{sortinit}{2}
+  \field{sortinit}{K}
   \field{booktitle}{Biomedical Optics}
   \field{pages}{BTu3A\bibrangedash 37}
   \field{title}{Heterogeneous Hierarchical Segmentation Method for Improved
@@ -142,7 +152,7 @@
   }
   \strng{namehash}{KVCLZJTF+1}
   \strng{fullhash}{KVCLZJTFLH1}
-  \field{sortinit}{2}
+  \field{sortinit}{K}
   \field{number}{5}
   \field{pages}{943\bibrangedash 957}
   \field{title}{Sparsity enhanced spatial resolution and depth localization in
@@ -150,6 +160,116 @@
   \field{volume}{3}
   \field{journaltitle}{Biomedical optics express}
   \field{year}{2012}
+\endentry
+
+\entry{kavuri2013hierarchical}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kavuri}{K.}%
+     {Venkaiah~C}{V.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Hanli}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{2}{%
+    {International Society for Optics}%
+    {Photonics}%
+  }
+  \strng{namehash}{KVCLH1}
+  \strng{fullhash}{KVCLH1}
+  \field{sortinit}{K}
+  \field{booktitle}{SPIE BiOS}
+  \field{pages}{85781K\bibrangedash 85781K}
+  \field{title}{Hierarchical clustering method for improved prostate cancer
+  imaging in diffuse optical tomography}
+  \field{year}{2013}
+\endentry
+
+\entry{kavuri2014hierarchical}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kavuri}{K.}%
+     {Venkaiah~C}{V.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Hanli}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{KVCLH1}
+  \strng{fullhash}{KVCLH1}
+  \field{sortinit}{K}
+  \field{number}{2}
+  \field{pages}{250\bibrangedash 262}
+  \field{title}{Hierarchical clustering method to improve transrectal
+  ultrasound-guided diffuse optical tomography for prostate cancer imaging}
+  \field{volume}{21}
+  \field{journaltitle}{Academic radiology}
+  \field{year}{2014}
+\endentry
+
+\entry{kavuri2014development}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kavuri}{K.}%
+     {Venkaiah~Chowdary}{V.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Biomedical Engineering}%
+  }
+  \strng{namehash}{KVC1}
+  \strng{fullhash}{KVC1}
+  \field{sortinit}{K}
+  \field{title}{Development Of Trans-rectal Ultrasound (trus) Coupled Diffuse
+  Optical Tomography (dot) For Prostate Cancer Imaging}
+  \field{year}{2014}
+\endentry
+
+\entry{krishnamurthy2010detectability}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Krishnamurthy}{K.}%
+     {Venkatagiri}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kavuri}{K.}%
+     {Venkaiah}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tian}{T.}%
+     {Fenghua}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Hanli}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Optical Society of America}%
+  }
+  \strng{namehash}{KVKVTF+1}
+  \strng{fullhash}{KVKVTFLH1}
+  \field{sortinit}{K}
+  \field{booktitle}{Biomedical Optics}
+  \field{pages}{BTuD103}
+  \field{title}{Detectability of Hemodynamic Response to Thermal Pain in
+  Pre-Frontal Cortex Using Diffuse Optical Tomography}
+  \field{year}{2010}
 \endentry
 
 \entry{nguyen2012multifunctionality}{article}{}
@@ -185,7 +305,7 @@
   }
   \strng{namehash}{NKTPRHPNL+1}
   \strng{fullhash}{NKTPRHPNLKVCLH1}
-  \field{sortinit}{2}
+  \field{sortinit}{N}
   \field{title}{Multifunctionality of indocyanine green-loaded biodegradable
   nanoparticles for enhanced optical imaging and hyperthermia intervention of
   cancer}
@@ -231,7 +351,7 @@
   }
   \strng{namehash}{PRHWASPNL+1}
   \strng{fullhash}{PRHWASPNLKVCNKTLH1}
-  \field{sortinit}{2}
+  \field{sortinit}{P}
   \field{number}{4}
   \field{pages}{0460031\bibrangedash 04600310}
   \field{title}{Multifunctionality of indocyanine green-loaded biodegradable
@@ -240,126 +360,6 @@
   \field{volume}{17}
   \field{journaltitle}{Journal of biomedical optics}
   \field{year}{2012}
-\endentry
-
-\entry{kavuri2013hierarchical}{inproceedings}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~C}{V.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Liu}{L.}%
-     {Hanli}{H.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{organization}{2}{%
-    {International Society for Optics}%
-    {Photonics}%
-  }
-  \strng{namehash}{KVCLH1}
-  \strng{fullhash}{KVCLH1}
-  \field{sortinit}{2}
-  \field{booktitle}{SPIE BiOS}
-  \field{pages}{85781K\bibrangedash 85781K}
-  \field{title}{Hierarchical clustering method for improved prostate cancer
-  imaging in diffuse optical tomography}
-  \field{year}{2013}
-\endentry
-
-\entry{kavuri2014optical}{inproceedings}{}
-  \name{author}{6}{}{%
-    {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~C}{V.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kapur}{K.}%
-     {Payal}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Morgan}{M.}%
-     {Monica}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Cadeddu}{C.}%
-     {Jeffrey}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Roehrborn}{R.}%
-     {Claus}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Liu}{L.}%
-     {Hanli}{H.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{organization}{1}{%
-    {Optical Society of America}%
-  }
-  \strng{namehash}{KVCKPMM+1}
-  \strng{fullhash}{KVCKPMMCJRCLH1}
-  \field{sortinit}{2}
-  \field{booktitle}{Biomedical Optics}
-  \field{pages}{BM3A\bibrangedash 28}
-  \field{title}{Optical properties of Ex-Vivo Prostate Tissues and the Design
-  of Trans-Rectal Ultrasound Coupled Optical Probe}
-  \field{year}{2014}
-\endentry
-
-\entry{kavuri2014hierarchical}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~C}{V.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Liu}{L.}%
-     {Hanli}{H.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Elsevier}%
-  }
-  \strng{namehash}{KVCLH1}
-  \strng{fullhash}{KVCLH1}
-  \field{sortinit}{2}
-  \field{number}{2}
-  \field{pages}{250\bibrangedash 262}
-  \field{title}{Hierarchical clustering method to improve transrectal
-  ultrasound-guided diffuse optical tomography for prostate cancer imaging}
-  \field{volume}{21}
-  \field{journaltitle}{Academic radiology}
-  \field{year}{2014}
-\endentry
-
-\entry{kavuri2014development}{thesis}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~Chowdary}{V.~C.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Biomedical Engineering}%
-  }
-  \strng{namehash}{KVC1}
-  \strng{fullhash}{KVC1}
-  \field{sortinit}{2}
-  \field{title}{Development Of Trans-rectal Ultrasound (trus) Coupled Diffuse
-  Optical Tomography (dot) For Prostate Cancer Imaging}
-  \field{year}{2014}
 \endentry
 
 \lossort
