@@ -1,18 +1,33 @@
-\let\nofiles\relax
-\documentclass[10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Professional Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+%\let\nofiles\relax
+\documentclass{my_cv} 
 
-\usepackage{helvet} % Default font is the helvetica postscript font
-%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage{hyperref}
+\usepackage[letterpaper,bindingoffset=0.2in,left=0.75in,right=0.75in,top=0.5in,bottom=1in,footskip=0.4in]{geometry}
 
-\usepackage{tgpagella}
-\usepackage[T1]{fontenc}
-\usepackage[letterpaper,bindingoffset=0.2in,left=0.75in,right=0.75in,top=0.5in,bottom=0.5in,footskip=.25in]{geometry}
-\usepackage{blindtext}
-\usepackage{fontawesome}
-\usepackage{fontspec}
 \usepackage{marvosym}
-
+\usepackage{fontawesome}
+\usepackage{academicons}
+\usepackage[document]{ragged2e}
 
 \usepackage[backend=bibtex,
 style=numeric,
@@ -26,38 +41,39 @@ sorting=nyt
 \nocite{*}
 
 
-\newsectionwidth{0pt} % Stops section indenting
-
 %----------------------------------------------------------------------------------------
 %	YOUR NAME AND ADDRESS(ES) SECTION
 %----------------------------------------------------------------------------------------
-%\setlength{\parindent}{0pt}
+\setlength{\parindent}{0.5cm}
 \begin{document}
 
+\name{\textsc{Venkaiah Chowdary Kavuri}}
+\vspace{-2mm}
+\begin{center} 
+\begin{footnotesize}
+\contact{4404 Walnut St., \# 3R}{Philadelphia}{USA 19104}{\Email venk@sas.upenn.edu}{\Mobilefone\, (814) 431-2033}
+\end{footnotesize}
 
-%\sffamily%
-{\small\begin{tabular}[c]{l}
- 4404 Walnut St, APT 3R\\
- Philadelphia, PA 19104 \\
-\end{tabular}}\hfill%
-{\Large\bfseries\begin{tabular}[c]{c}
-VENKAIAH C. KAVURI
-\end{tabular}}\hfill%
-{\small\begin{tabular}[c]{r}
-\Telefon (215) 898-5148 \\
-\Mobilefone (814) 431-2033 \\
-\Email venk@sas.upenn.edu\\
-\faLinkedinSign\,\faGithub
-\end{tabular}}%%
-\vspace{0.05in} 
-\rule{\textwidth}{1pt}
-%----------------------------------------------------------------------------------------
-
-\begin{resume}
-\vspace{-7mm} 
+\href{https://www.linkedin.com/in/venkaiahchowdarykavuri}{\faLinkedinSquare} \href{https://github.com/Venki-Kavuri}{\faGithub} \href{https://scholar.google.com/citations?hl=en&user=r5E9ACIAAAAJ&view_op=list_works}{\aiGoogleScholar} \href{https://www.facebook.com/venki.kavuri}{\faFacebookOfficial}
+\end{center} 
+\vspace{5mm} 
+\today\\
+\vspace{5mm} 
 
 
 
+Dear Hiring Manager,\\\vspace{2mm} I am writing to express my interest in \textbf{Research Scientist, Biosensors and Signal Processing role.}\\\vspace{2mm} 
+As a forward-thinking postdoctoral researcher with proven skills in Bioengineering and more than three years of directly applicable technical experience; I would use my talents and academic knowledge to assist in bringing projects to successful completion. \\
+With excellent problem-solving and solution development abilities; I have the skills to create new and improve existing prototypes. I am also motivated to be part of several projects simultaneously by involving in different roles such as development, programing and testing.\\
+Areas of strength that will guide me in delivering successes towards meeting your organization?s goals include Instrument Development, Scientific Programing, Signal Processing, Algorithm Development, Data Processing, and Statistical Analysis.\\\vspace{2mm} Some of my technical proficiencies include:\\\vspace{2mm} In-depth understanding of global and local optimization and a working knowledge of advanced signal processing techniques (such as, Kalman filtering and time-varying frequency analysis).\\
+\vspace{2mm} 
+Demonstrated record in biophysical modeling using problem-solving techniques such as numerical modeling, inverse problems and optimization.\\
+\vspace{2mm} 
+Skilled at designing, conducting and testing in vitro/in vivo experiments to thoroughly analyze device prototypes and develop commercially-viable product enhancements.\\\vspace{2mm} 
+While working as a Posdoc at University of Pennsylvania; I originated, designed and built a optical flow measurement device to be used in Neural ICU. I am also working on wearable flow measurement device(using Intel Edison) to be used for measuring blood flow in muscle. 
+During my Phd at University of Texas Arlington, I applied statistical methods to develop a new technique for detecting and imaging early stages of aggressive prostate cancer by creating, engineering and building a TRUS-compatible DOT Probe. I also originated, designed and built multi-spectral, low-cost and portable DOT instrumentation then improved existing reconstruction methods by combining depth compensation algorithm and L1-regularized least squares method.\\
+\vspace{2mm} I welcome the opportunity to participate in a personal interview to answer your questions and better present my qualifications. I look forward to speaking with you soon.\\\vspace{2mm} Thank you for your time and consideration.\\\vspace{10mm} Sincerely,\\\vspace{5mm} Venkaiah Kavuri\\
 
-\end{resume} 
+
+
 \end{document}
