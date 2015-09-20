@@ -118,7 +118,7 @@
   \strng{fullhash}{KVCLZJLH1}
   \field{sortinit}{K}
   \field{booktitle}{Biomedical Optics}
-  \field{pages}{BTu3A37}
+  \field{pages}{BTu3A\bibrangedash 37}
   \field{title}{Heterogeneous Hierarchical Segmentation Method for Improved
   Prostate Cancer Imaging In Diffuse Optical Tomography: Simulation Study}
   \field{year}{2012}
