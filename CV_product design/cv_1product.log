@@ -1,8 +1,8 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.10)  26 OCT 2015 16:48
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.10)  12 DEC 2015 17:16
  restricted \write18 enabled.
  file:line:error style messages enabled.
-**Coverletter.tex
-(./Coverletter.tex
+**cv_1product.tex
+(./cv_1product.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 79 languages loaded.
 (./my_cv.cls
@@ -374,9 +374,9 @@ Lua module: luaotfload-main 2014/08/10 2.50003 OpenType layout system.
 
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-log.lua)
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-fontloader.
-lua)(using write cache: /Users/venki/Library/texlive/2015/texmf-var/luatex-cache
-/generic)(using read cache: /usr/local/texlive/2015/texmf-var/luatex-cache/gener
-ic /Users/venki/Library/texlive/2015/texmf-var/luatex-cache/generic)
+lua)(using write cache: /usr/local/texlive/2015/texmf-var/luatex-cache/generic)(
+using read cache: /usr/local/texlive/2015/texmf-var/luatex-cache/generic /Users/
+venki/Library/texlive/2015/texmf-var/luatex-cache/generic)
 luatexbase-attr: luatexbase.attributes["luaotfload@kernpair"] = 1
 luatexbase-attr: luatexbase.attributes["luaotfload@ligacomp"] = 2
 luatexbase-attr: luatexbase.attributes["luaotfload@markbase"] = 3
@@ -386,7 +386,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.033 seconds
+luaotfload | main : fontloader loaded in 0.041 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -400,15 +400,15 @@ a)
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-configurati
 on.lua)
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-status.lua)
-luaotfload | conf : Root cache directory is /Users/venki/Library/texlive/2015/te
-xmf-var/luatex-cache/generic/names.
+luaotfload | conf : Root cache directory is /usr/local/texlive/2015/texmf-var/lu
+atex-cache/generic/names.
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-loaders.lua
 )
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-database.lu
 a)
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-colors.lua)
-luaotfload | conf : Root cache directory is /Users/venki/Library/texlive/2015/te
-xmf-var/luatex-cache/generic/names.
+luaotfload | conf : Root cache directory is /usr/local/texlive/2015/texmf-var/lu
+atex-cache/generic/names.
 luatexbase-mcb: creating 'luaotfload.resolve_font' type 4
 luatexbase-mcb: creating 'luaotfload.patch_font' type 4
 luatexbase-mcb: resetting callback 'define_font'
@@ -469,11 +469,11 @@ LaTeX Font Info:    Try loading font information for EU2+lmr on input line 105.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu2lmr.fd
 File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-luaotfload | db : Font names database loaded from /Users/venki/Library/texlive/2
-015/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(compiling luc: /us
-r/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman10-regular.
-luc)(load luc: /Users/venki/Library/texlive/2015/texmf-var/luatex-cache/generic/
-fonts/otf/lmroman10-regular.luc))
+luaotfload | db : Font names database loaded from /usr/local/texlive/2015/texmf-
+var/luatex-cache/generic/names/luaotfload-names.luc(compiling luc: /usr/local/te
+xlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman10-regular.luc)(load 
+luc: /Users/venki/Library/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/
+lmroman10-regular.luc))
 (/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
 ther characters in Unicode lower plane
@@ -634,8 +634,8 @@ LaTeX Info: Redefining \upshape on input line 2169.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 \g__file_internal_ior=\read2
-luaotfload | cache : Lookup cache loaded from /Users/venki/Library/texlive/2015/
-texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | cache : Lookup cache loaded from /usr/local/texlive/2015/texmf-var/
+luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"(compiling lu
 c: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/fontawesome.
 luc)(load luc: /Users/venki/Library/texlive/2015/texmf-var/luatex-cache/generic/
@@ -995,6 +995,23 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1004,33 +1021,33 @@ File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 \@quotelevel=\count409
 \@quotereset=\count410
 
-(./Coverletter.aux)
-\openout1 = Coverletter.aux
+(./cv_1product.aux)
+\openout1 = cv_1product.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 48.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 54.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 54.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    ... okay on input line 54.
 \AtBeginShipoutBox=\box256
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 54.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1039,14 +1056,14 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count411
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
 
-(./Coverletter.out) (./Coverletter.out)
+(./cv_1product.out) (./cv_1product.out)
 \@outlinefile=\write4
 
-\openout4 = Coverletter.out
+\openout4 = cv_1product.out
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1117,73 +1134,72 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 48.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 48.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 48.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 48.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 48.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 48.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 48.
-LaTeX Font Info:    Redeclaring math accent \check on input line 48.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 48.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 48.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 48.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 48.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 54.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 54.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 54.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 54.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 54.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 54.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 54.
+LaTeX Font Info:    Redeclaring math accent \check on input line 54.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 54.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 54.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 54.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 54.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 48.
+(Font)              `operators' in the math version `normal' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU2/lmr/m/n on input line 48.
+(Font)                  OT1/cmr/m/n --> EU2/lmr/m/n on input line 54.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 48.
+(Font)              `operators' in the math version `bold' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU2/lmr/m/n on input line 48.
+(Font)                  OT1/cmr/bx/n --> EU2/lmr/m/n on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU2/lmr/m/n --> EU2/lmr/m/n on input line 48.
+(Font)                  EU2/lmr/m/n --> EU2/lmr/m/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU2/lmr/m/it on input line 48.
+(Font)                  OT1/cmr/m/it --> EU2/lmr/m/it on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU2/lmr/bx/n on input line 48.
+(Font)                  OT1/cmr/bx/n --> EU2/lmr/bx/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 48.
+(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 48.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU2/lmr/m/n --> EU2/lmr/bx/n on input line 48.
+(Font)                  EU2/lmr/m/n --> EU2/lmr/bx/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU2/lmr/bx/it on input line 48.
+(Font)                  OT1/cmr/bx/it --> EU2/lmr/bx/it on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 48.
+(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 48.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 48.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 54.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 54.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 48.
+LaTeX Info: Redefining \selectfont on input line 54.
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Data encoding 'ascii' specified.
 (biblatex)             No need to reencode data.
 
-\openout3 = Coverletter-blx.bib
+\openout3 = cv_1product-blx.bib
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Coverletter.bbl' not found.
-
-No file Coverletter.bbl.
-Package biblatex Info: Reference section=0 on input line 48.
-Package biblatex Info: Reference segment=0 on input line 48.
+Package biblatex Info: ... file 'cv_1product.bbl' found.
+ (./cv_1product.bbl)
+Package biblatex Info: Reference section=0 on input line 54.
+Package biblatex Info: Reference segment=0 on input line 54.
 (compiling luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf
 /lmroman17-regular.luc)(load luc: /Users/venki/Library/texlive/2015/texmf-var/lu
 atex-cache/generic/fonts/otf/lmroman17-regular.luc)(compiling luc: /usr/local/te
@@ -1195,59 +1211,94 @@ ary/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman8-regular.luc)(
 compiling luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/
 lmroman5-regular.luc)(load luc: /Users/venki/Library/texlive/2015/texmf-var/luat
 ex-cache/generic/fonts/otf/lmroman5-regular.luc)
-LaTeX Font Info:    Try loading font information for U+mvs on input line 54.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/umvs.fd)
 luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
-luaotfload | load : Lookup/name: "academicons" -> "academicons.ttf"
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
+luaotfload | load : Lookup/name: "academicons" -> "academicons.ttf"(compiling lu
+c: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman12-re
+gular.luc)(load luc: /Users/venki/Library/texlive/2015/texmf-var/luatex-cache/ge
+neric/fonts/otf/lmroman12-regular.luc)(compiling luc: /usr/local/texlive/2015/te
+xmf-var/luatex-cache/generic/fonts/otf/lmroman7-regular.luc)(load luc: /Users/ve
+nki/Library/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman7-regul
+ar.luc)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 162.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 162.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
- (./Coverletter.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
-Package rerunfilecheck Info: File `Coverletter.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Overfull \hbox (13.4038pt too wide) in paragraph at lines 177--179
+ [] 
+ []
+
+(compiling luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf
+/lmroman12-bold.luc)(load luc: /Users/venki/Library/texlive/2015/texmf-var/luate
+x-cache/generic/fonts/otf/lmroman12-bold.luc)
+Overfull \hbox (1.40375pt too wide) in paragraph at lines 240--240
+[][]\EU2/lmr/m/n/10 V. C. Kavuri and H. Liu, ``Hi-er-ar-chi-cal clus-ter-ing me
+thod to im-prove tran-srec-tal ultrasound-guided dif-fuse 
+ []
 
 
-LaTeX Warning: There were undefined references.
+Overfull \hbox (1.05382pt too wide) in paragraph at lines 242--242
+\EU2/lmr/m/n/10 op-ti-cal to-mog-ra-phy: Sim-u-la-tion study,'' in \EU2/lmr/m/i
+t/10 Biomed-i-cal Op-tics\EU2/lmr/m/n/10 , Op-ti-cal So-ci-ety of Amer-ica, 201
+2, BTu3A37.  
+ []
 
 
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                Coverletter
-(biblatex)                and rerun LaTeX afterwards.
+Overfull \hbox (6.74374pt too wide) in paragraph at lines 242--242
+\EU2/lmr/m/n/10 op-ti-cal to-mog-ra-phy,'' in \EU2/lmr/m/it/10 SPIE BiOS\EU2/lm
+r/m/n/10 , In-ter-na-tional So-ci-ety for Op-tics and Pho-ton-ics, 2013, 85781K
+–85781K.  
+ []
 
-Package logreq Info: Writing requests to 'Coverletter.run.xml'.
+(compiling luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf
+/lmroman6-regular.luc)(load luc: /Users/venki/Library/texlive/2015/texmf-var/lua
+tex-cache/generic/fonts/otf/lmroman6-regular.luc)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 246.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 246.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
+ (./cv_1product.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
+Package rerunfilecheck Info: File `cv_1product.out' has not changed.
+(rerunfilecheck)             Checksum: F64C8D5F851EE1C6D93C6D8382F6104C;439.
+Package logreq Info: Writing requests to 'cv_1product.run.xml'.
 
-\openout1 = Coverletter.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+\openout1 = cv_1product.run.xml
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26159 strings out of 494699
- 125200,662416 words of node,token memory allocated
- 346 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 4 attribute, 53 glue_spec, 4 attrib
+ 26799 strings out of 494699
+ 125200,794899 words of node,token memory allocated
+ 353 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 4 attribute, 54 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:3,2:7379,3:50,4:709,5:162,6:2376,7:18,8:10,9:67,10:263
- 29339 multiletter control sequences out of 65536+600000
- 27 fonts using 1911527 bytes
- 54i,4n,65p,1193b,667s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf>
-</usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
-tf></usr/local/texlive/2015/texmf-dist/fonts/truetype/public/academicons/academi
-cons.ttf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/fontawesome/F
-ontAwesome.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmro
-man5-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lm
-roman8-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/
-lmromancaps10-regular.otf><</usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/marvosym/marvosym.pfb>
-Output written on Coverletter.pdf (1 page, 36889 bytes).
+   avail lists: 1:1,2:11140,3:202,4:1425,5:214,6:3507,7:72,8:21,9:176,10:429
+ 29924 multiletter control sequences out of 65536+600000
+ 48 fonts using 3563951 bytes
+ 54i,9n,65p,1193b,719s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.ot
+f></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.ot
+f></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.
+otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.
+otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-regul
+ar.otf></usr/local/texlive/2015/texmf-dist/fonts/truetype/public/academicons/aca
+demicons.ttf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/fontaweso
+me/FontAwesome.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/
+lmroman5-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/l
+m/lmroman8-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public
+/lm/lmromancaps10-regular.otf>
+Output written on cv_1product.pdf (2 pages, 47394 bytes).
 
-PDF statistics: 71 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 140 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 131072)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

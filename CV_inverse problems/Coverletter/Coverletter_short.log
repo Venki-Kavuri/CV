@@ -1,8 +1,8 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.10)  26 OCT 2015 16:48
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.10)  9 OCT 2015 14:52
  restricted \write18 enabled.
  file:line:error style messages enabled.
-**Coverletter.tex
-(./Coverletter.tex
+**Coverletter_short.tex
+(./Coverletter_short.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 79 languages loaded.
 (./my_cv.cls
@@ -386,7 +386,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.033 seconds
+luaotfload | main : fontloader loaded in 0.028 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1004,8 +1004,8 @@ File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 \@quotelevel=\count409
 \@quotereset=\count410
 
-(./Coverletter.aux)
-\openout1 = Coverletter.aux
+(./Coverletter_short.aux)
+\openout1 = Coverletter_short.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
@@ -1025,13 +1025,15 @@ LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 48.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 48.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 48.
 \AtBeginShipoutBox=\box256
 Package hyperref Info: Link coloring OFF on input line 48.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1043,10 +1045,10 @@ LaTeX Info: Redefining \ref on input line 48.
 LaTeX Info: Redefining \pageref on input line 48.
 LaTeX Info: Redefining \nameref on input line 48.
 
-(./Coverletter.out) (./Coverletter.out)
+(./Coverletter_short.out) (./Coverletter_short.out)
 \@outlinefile=\write4
 
-\openout4 = Coverletter.out
+\openout4 = Coverletter_short.out
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1177,11 +1179,11 @@ Package biblatex Info: LuaTeX detected.
 Package biblatex Info: Data encoding 'ascii' specified.
 (biblatex)             No need to reencode data.
 
-\openout3 = Coverletter-blx.bib
+\openout3 = Coverletter_short-blx.bib
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Coverletter.bbl' not found.
+Package biblatex Info: ... file 'Coverletter_short.bbl' not found.
 
-No file Coverletter.bbl.
+No file Coverletter_short.bbl.
 Package biblatex Info: Reference section=0 on input line 48.
 Package biblatex Info: Reference segment=0 on input line 48.
 (compiling luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf
@@ -1205,10 +1207,11 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
- (./Coverletter.aux)
+
+(./Coverletter_short.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
-Package rerunfilecheck Info: File `Coverletter.out' has not changed.
+Package rerunfilecheck Info: File `Coverletter_short.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
@@ -1216,25 +1219,25 @@ LaTeX Warning: There were undefined references.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                Coverletter
+(biblatex)                Coverletter_short
 (biblatex)                and rerun LaTeX afterwards.
 
-Package logreq Info: Writing requests to 'Coverletter.run.xml'.
+Package logreq Info: Writing requests to 'Coverletter_short.run.xml'.
 
-\openout1 = Coverletter.run.xml
+\openout1 = Coverletter_short.run.xml
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
 )
 
 Here is how much of LuaTeX's memory you used:
  26159 strings out of 494699
  125200,662416 words of node,token memory allocated
- 346 words of node memory still in use:
+ 347 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 4 attribute, 53 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:3,2:7379,3:50,4:709,5:162,6:2376,7:18,8:10,9:67,10:263
+   avail lists: 1:2,2:6379,3:52,4:644,5:137,6:2051,7:12,8:10,9:65,10:229
  29339 multiletter control sequences out of 65536+600000
  27 fonts using 1911527 bytes
- 54i,4n,65p,1193b,667s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 54i,4n,65p,1199b,667s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf>
 </usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
 tf></usr/local/texlive/2015/texmf-dist/fonts/truetype/public/academicons/academi
@@ -1244,7 +1247,7 @@ man5-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lm
 roman8-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/
 lmromancaps10-regular.otf><</usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/marvosym/marvosym.pfb>
-Output written on Coverletter.pdf (1 page, 36889 bytes).
+Output written on Coverletter_short.pdf (1 page, 36169 bytes).
 
 PDF statistics: 71 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream

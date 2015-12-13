@@ -1,8 +1,8 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.10)  26 OCT 2015 16:48
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.10)  23 NOV 2015 00:56
  restricted \write18 enabled.
  file:line:error style messages enabled.
-**Coverletter.tex
-(./Coverletter.tex
+**Coverletter_inverse.tex
+(./Coverletter_inverse.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 79 languages loaded.
 (./my_cv.cls
@@ -374,9 +374,9 @@ Lua module: luaotfload-main 2014/08/10 2.50003 OpenType layout system.
 
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-log.lua)
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-fontloader.
-lua)(using write cache: /Users/venki/Library/texlive/2015/texmf-var/luatex-cache
-/generic)(using read cache: /usr/local/texlive/2015/texmf-var/luatex-cache/gener
-ic /Users/venki/Library/texlive/2015/texmf-var/luatex-cache/generic)
+lua)(using write cache: /usr/local/texlive/2015/texmf-var/luatex-cache/generic)(
+using read cache: /usr/local/texlive/2015/texmf-var/luatex-cache/generic /Users/
+venki/Library/texlive/2015/texmf-var/luatex-cache/generic)
 luatexbase-attr: luatexbase.attributes["luaotfload@kernpair"] = 1
 luatexbase-attr: luatexbase.attributes["luaotfload@ligacomp"] = 2
 luatexbase-attr: luatexbase.attributes["luaotfload@markbase"] = 3
@@ -400,15 +400,15 @@ a)
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-configurati
 on.lua)
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-status.lua)
-luaotfload | conf : Root cache directory is /Users/venki/Library/texlive/2015/te
-xmf-var/luatex-cache/generic/names.
+luaotfload | conf : Root cache directory is /usr/local/texlive/2015/texmf-var/lu
+atex-cache/generic/names.
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-loaders.lua
 )
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-database.lu
 a)
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload-colors.lua)
-luaotfload | conf : Root cache directory is /Users/venki/Library/texlive/2015/te
-xmf-var/luatex-cache/generic/names.
+luaotfload | conf : Root cache directory is /usr/local/texlive/2015/texmf-var/lu
+atex-cache/generic/names.
 luatexbase-mcb: creating 'luaotfload.resolve_font' type 4
 luatexbase-mcb: creating 'luaotfload.patch_font' type 4
 luatexbase-mcb: resetting callback 'define_font'
@@ -469,11 +469,11 @@ LaTeX Font Info:    Try loading font information for EU2+lmr on input line 105.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu2lmr.fd
 File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-luaotfload | db : Font names database loaded from /Users/venki/Library/texlive/2
-015/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(compiling luc: /us
-r/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman10-regular.
-luc)(load luc: /Users/venki/Library/texlive/2015/texmf-var/luatex-cache/generic/
-fonts/otf/lmroman10-regular.luc))
+luaotfload | db : Font names database loaded from /usr/local/texlive/2015/texmf-
+var/luatex-cache/generic/names/luaotfload-names.luc(compiling luc: /usr/local/te
+xlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman10-regular.luc)(load 
+luc: /Users/venki/Library/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/
+lmroman10-regular.luc))
 (/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
 ther characters in Unicode lower plane
@@ -634,8 +634,8 @@ LaTeX Info: Redefining \upshape on input line 2169.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 \g__file_internal_ior=\read2
-luaotfload | cache : Lookup cache loaded from /Users/venki/Library/texlive/2015/
-texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | cache : Lookup cache loaded from /usr/local/texlive/2015/texmf-var/
+luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"(compiling lu
 c: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/fontawesome.
 luc)(load luc: /Users/venki/Library/texlive/2015/texmf-var/luatex-cache/generic/
@@ -1004,9 +1004,9 @@ File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 \@quotelevel=\count409
 \@quotereset=\count410
 
-(./Coverletter.aux)
-\openout1 = Coverletter.aux
+No file Coverletter_inverse.aux.
 
+\openout1 = Coverletter_inverse.aux
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
@@ -1025,13 +1025,14 @@ LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 48.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 48.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 48.
 \AtBeginShipoutBox=\box256
 Package hyperref Info: Link coloring OFF on input line 48.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1042,11 +1043,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 48.
 LaTeX Info: Redefining \pageref on input line 48.
 LaTeX Info: Redefining \nameref on input line 48.
-
-(./Coverletter.out) (./Coverletter.out)
 \@outlinefile=\write4
 
-\openout4 = Coverletter.out
+\openout4 = Coverletter_inverse.out
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1177,11 +1176,11 @@ Package biblatex Info: LuaTeX detected.
 Package biblatex Info: Data encoding 'ascii' specified.
 (biblatex)             No need to reencode data.
 
-\openout3 = Coverletter-blx.bib
+\openout3 = Coverletter_inverse-blx.bib
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Coverletter.bbl' not found.
+Package biblatex Info: ... file 'Coverletter_inverse.bbl' not found.
 
-No file Coverletter.bbl.
+No file Coverletter_inverse.bbl.
 Package biblatex Info: Reference section=0 on input line 48.
 Package biblatex Info: Reference segment=0 on input line 48.
 (compiling luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf
@@ -1200,41 +1199,53 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 54.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/umvs.fd)
 luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
 luaotfload | load : Lookup/name: "academicons" -> "academicons.ttf"
+Overfull \hbox (2.88377pt too wide) in paragraph at lines 80--80
+\EU2/lmr/m/n/10 Op-ti-cal To-mog-ra-phy(DOT). I also ex-plored Gauss-Newton, Le
+venberg-Marquardt and Con-ju-gate gra-di-ent meth- 
+ []
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
- [1
+[1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
- (./Coverletter.aux)
+
+(./Coverletter_inverse.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
-Package rerunfilecheck Info: File `Coverletter.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
+
+Package rerunfilecheck Warning: File `Coverletter_inverse.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Coverletter_inverse.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Warning: There were undefined references.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                Coverletter
+(biblatex)                Coverletter_inverse
 (biblatex)                and rerun LaTeX afterwards.
 
-Package logreq Info: Writing requests to 'Coverletter.run.xml'.
+Package logreq Info: Writing requests to 'Coverletter_inverse.run.xml'.
 
-\openout1 = Coverletter.run.xml
+\openout1 = Coverletter_inverse.run.xml
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26159 strings out of 494699
+ 26144 strings out of 494699
  125200,662416 words of node,token memory allocated
  346 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 4 attribute, 53 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:3,2:7379,3:50,4:709,5:162,6:2376,7:18,8:10,9:67,10:263
+   avail lists: 1:2,2:7661,3:54,4:726,5:165,6:2468,7:26,8:10,9:68,10:278
  29339 multiletter control sequences out of 65536+600000
  27 fonts using 1911527 bytes
- 54i,4n,65p,1193b,667s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 54i,4n,65p,1201b,667s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf>
 </usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
 tf></usr/local/texlive/2015/texmf-dist/fonts/truetype/public/academicons/academi
@@ -1244,7 +1255,7 @@ man5-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lm
 roman8-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/
 lmromancaps10-regular.otf><</usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/marvosym/marvosym.pfb>
-Output written on Coverletter.pdf (1 page, 36889 bytes).
+Output written on Coverletter_inverse.pdf (1 page, 37819 bytes).
 
 PDF statistics: 71 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
