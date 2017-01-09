@@ -29,18 +29,24 @@
 \usepackage{academicons}
 \usepackage[document]{ragged2e}
 
+
+
+\usepackage{enumitem}
+\setlist{nolistsep}
+
+
+
 \usepackage[backend=bibtex,
-style=numeric,
-style=alphabetic,
-bibencoding=ascii,
 defernumbers=true,
 style=ieee,
-sorting=nyt
+sorting=ydnt,
 ]{biblatex}
-\addbibresource{cv_1}
+
+\addbibresource{cv_1product.bib}
 \nocite{*}
 
-
+%\DeclareFieldFormat{labelnumberwidth}{}
+%\setlength{\biblabelsep}{0pt}
 
 \usepackage{xcolor}
  \definecolor{linkedincolor}{HTML}{1683BB}
@@ -54,114 +60,88 @@ sorting=nyt
 \begin{document}
 
 \name{\textsc{Venkaiah Chowdary Kavuri}}
-\vspace{-2mm}
+\vspace{-3mm}
 \begin{center} 
 \begin{footnotesize}
-\contact{4404 Walnut St., \# 3R}{Philadelphia, PA}{USA 19104}{\faEnvelope\,  \href{mailto:venk@sas.upenn.edu}{venk@sas.upenn.edu}}{\faMobilePhone\, (814) 431-2033}
+\contact{22700 Lake Forest Dr., \#234}{Lake Forest, CA}{USA 92630}{\faEnvelope\,  \href{mailto:venk@physics.upenn.edu}{venk@physics.upenn.edu}}{\faMobilePhone\, (814) 431-2033}
 \end{footnotesize}
 
 \href{https://www.linkedin.com/in/venkaiahchowdarykavuri}{\textcolor{linkedincolor}{\faLinkedinSquare}} \href{https://github.com/Venki-Kavuri}{\faGithub} \href{https://scholar.google.com/citations?hl=en&user=r5E9ACIAAAAJ&view_op=list_works}{\textcolor{gscholarcolor}{\aiGoogleScholar}} \href{https://www.facebook.com/venki.kavuri}{\textcolor{facebookcolor}{\faFacebookOfficial}}
 \end{center} 
+%--------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\vspace{-9mm} 
+\vspace{-10mm}
+\section{Experience}
+\begin{flushleft}  
 
-\section{Summary of Qualifications}
-\begin{itemize}\itemsep 0pt
+\textbf{Masimo Corporation}, Irvine, CA. \hfill June 2016  - Present\\ 
+\textbf{\textcolor{darkgray}{Algorithm Engineer,} }Rainbow Group
+\begin{itemize} 
+\item Involved in fast-wavelength characterization(without spectrometer) of oxygen saturation sensors.
+\item Involved in the projects related to improvement of non-invasive Hemoglobin measurement.
+\end{itemize} 
+\vspace{5pt} 
 
-\item Optical device instrumentation and characterization - Lasers, Optoelectronics and CCD cameras. 
-\item Deep understanding of the fundamental physics of light-optical modeling/simulation/optimization.
-\item Instrument control and data processing- LabVIEW, MATLAB, Python, and SOLIDWORKS. 
-\item Statistics- Design of Experiments, SAS and SPSS.
-\item Electronic circuit design- PSpice.
-\item Signal processing tools- Short time Fourier transform, Wavelet transform, Noise filtering and Parameter estimation.
+\textbf{University of Pennsylvania}, Philadelphia, PA. \hfill October 2014 - June 2016 \\ 
+\textbf{\textcolor{darkgray}{Postdoctoral Researcher,} }Yodh Biomedical Optics Lab, Philadelphia, PA
+
+\begin{itemize} 
+\item Designed and engineered(hardware and software) a non-invasive blood flow measurement device prototype using NIR and dynamic light scattering technologies.
+\item Developed a clinical UI using Labview for controlling Lasers, single-photon counting detectors and acousto-optic tunable filters.  
+\item Implemented RS232 communication protocol to send the real-time processed data to an existing multi-modal data collection device.  
+\item Image processing and reconstruction of breast cancer images (using diode lasers and gain modulated, image intensified CCD camera) using Diffuse Optical Tomography (optical 3D mammogram).
+\item Supervised and trained graduate students, undergraduate students and research assistants.  
 \end{itemize}
-\vspace{-7mm}
+\vspace{5pt} 
+\textbf{University of Texas Arlington}, Arlington, TX. \hfill August 2010 - August 2014 \\
+\textbf{\textcolor{darkgray}{Graduate Research Assistant,} }Biomedical Optics Lab, Arlington, TX 
+\begin{itemize} 
+
+\item Engineered Trans-rectal Ultrasound (TRUS)-compatible Diffuse Optical Tomography (DOT) Probe (using SolidWorks) for measuring prostate cancer. 
+
+\item Developed algorithms(sparse recovery techniques and hierarchical clustering) to detect and image early stages of aggressive prostate cancer which increased sensitivity and specificity.
+
+\item Originated, designed and built multi-spectral, low-cost and portable DOT instrumentation (using basic electronic circuit design and signal processing).
+
+\item Research work resulted in 2 peer-reviewed, 1st-authored journal papers. This produced further external funding for continuous development in detection/diagnosis of prostate cancer.
+
+\end{itemize}
+\end{flushleft}
 
 
+\vspace{-7mm}% Some whitespace between sections
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Education}
 \begin{flushleft}  
-\textbf{University of Pennsylvania}, Philadelphia, PA  \hfill October 2014 - Present \\ 
-Postdoctoral Researcher in Department of Physics and Astronomy \\ 
-\vspace{-2.5mm}
-\begin{itemize}\itemsep -2pt
-\item Projects in progress: Time-domain and Frequency-domain(100MHz) Optical instrumentation (stroke measurements) for Neural ICU.   
-\item Completed projects: Optical 3D image reconstruction (inverse problem) of human breast cancer from 2D camera images. 
-\item Advisor: Professor Arjun Yodh
-\item Areas of focus: Optical Instrument Design, Clinical Measurements, Diffuse Optical Tomography, Diffuse Coherence Spectroscopy and Image Reconstruction.
+
+\begin{itemize}[leftmargin=*]
+
+\item[] \textbf{Postdoctoral Research} in Physics and Astronomy, \textbf{University of Pennsylvania},  2016\\
+
+\item[] \textbf{Ph.D} in Bioengineering, \textbf{University of Texas Arlington}, 2014 \\ 
+\hspace{\labelwidth}\phantom{\textbf{Ph.D}}Dissertation -  Development of Trans-rectal Ultrasound (TRUS) Coupled Diffuse Optical Tomography\hspace{\labelwidth}\phantom{\textbf{Ph.D}} (DOT) for Prostate Cancer 	
+	
+\item[] \textbf{B.Tech} in Biomedical Engineering, {Jawaharlal Nehru Technological University}, India,  2007\\
+\hspace{\labelwidth}\phantom{\textbf{Ph.D}}First class with distinction.
+
+\item[] \textbf{Specialization}: Near-infrared (NIR) technology, diffuse optics, optical tomography, inverse problems,
+\hspace{\labelwidth}\phantom{\textbf{Ph.D}} image reconstruction, image processing, mathematical analysis, optimization, statistics.
+
+\item[] \textbf{Skills}: Optics, lasers, opto-electronics, RF electronics, CAD, mechanical design, machining\\
+\hspace{\labelwidth}\phantom{\textbf{Ph.D}} Matlab, LabVIEW, Python, C, SOLIDWORKS, Comsol.
+
+\item[] \textbf{Certifications}: Coursera: Machine Learning Foundations, Regression.
+
 \end{itemize}
 
-
-\textbf{University of Texas Arlington}, Arlington, TX \hfill January 2008 - August 2014 \\ 
-Doctor of Philosophy in Biomedical Engineering (Medical Imaging-Biomedical Optics) \\
-\vspace{-2.5mm}
-\begin{itemize}\itemsep -2pt
-\item Dissertation -  Development of Trans-rectal Ultrasound (TRUS) Coupled Diffuse Optical Tomography (DOT) For Prostate Cancer Imaging.
-\item Advisor: Professor Hanli Liu 
-\item Areas of focus: Optical Probe Design, Clinical Measurements, Image Reconstruction and Image Processing.
-\end{itemize}
- 
-\textbf{Jawaharlal Nehru Technological University}, Hyderabad, India \hfill September 2003 - May 2007\\
-Bachelor of Technology in Biomedical Engineering \\ 
-\vspace{-3mm}
-\begin{itemize}
-\setlength\itemsep{0em} 
-\item First class with distinction.
-\end{itemize}
 \end{flushleft}  
-%----------------------------------------------------------------------------------------
- 
-\vspace{-7mm}% Some whitespace between sections
-
-%----------------------------------------------------------------------------------------
-%	PROFESSIONAL EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Professional Experience}
-\begin{flushleft}  
-
-\textbf{University of Pennsylvania}, Philadelphia, PA . \hfill October 2014 - Present \\ 
-\textbf{\textcolor{darkgray}{Postdoctoral Researcher,} }Yodh Biomedical Optics Lab, Philadelphia, PA
-\vspace{-2.5mm}
-\begin{itemize} \itemsep -2pt % Reduce space between items
-\item Designed a non-invasive cerebral blood flow instrument to be used in neural ICU for predicting recurrent stroke using single photon counting detectors and long coherence length lasers. 
-\item Image processing and reconstruction of breast cancer images (using diode lasers and gain modulated, image intensified CCD camera) using Diffuse Optical Tomography (optical 3D mammogram).
-\item Supervised and trained new graduate students, undergraduate students and research assistants.  
-\end{itemize}
-
-\textbf{University of Texas Arlington}, Arlington, TX \hfill August 2010 - August 2014 \\
-\textbf{\textcolor{darkgray}{Graduate Research Assistant,} }Biomedical Optics Lab, Arlington, TX 
-\begin{itemize} \itemsep -2pt % Reduce space between items
-\vspace{-2.5mm}
-\item Developed a technique to detect and image early stages of aggressive prostate cancer by creating, engineering and building Trans-rectal Ultrasound (TRUS)-compatible Diffuse Optical Tomography (DOT) Probe (using SolidWorks), which increased sensitivity and specificity to detect prostate cancer. 
-
-\item Originated, designed and built multi-spectral, low-cost and portable DOT instrumentation (using basic electronic circuit design and signal processing) then improved existing reconstruction methods (enhanced depth localization and images) by combining depth compensation algorithm and L1-regularized least squares method.
-
-\item Research work resulted in 2 peer-reviewed, 1st-authored journal papers. This produced further external funding for continuous development in detection/diagnosis of prostate cancer.
-
-\end{itemize}
-\end{flushleft}
- 
-%----------------------------------------------------------------------------------------
-
-\vspace{-7mm} % Some whitespace between sections
-
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Computer Skills}
-
-\vspace{2pt} % Gap between title and text
-\begin{center}
-
-\begin{tabular}{c|c|c|c|c|c} Matlab & LabVIEW& Python & C &SOLIDWORKS &Comsol \\
-MS Office& Ubuntu & ImageJ &\LaTeX &SAS &SPSS\end{tabular}
-\end{center}
 
 
 \vspace{-7mm}  % Some whitespace between sections
@@ -190,8 +170,25 @@ Lasers \& LEDs & Optoelectronics &Photon Counting &DAQ boards &Free Space Optics
 
 \vspace{-2mm} % Gap between title and text
 \begin{itemize} \itemsep -2pt % Reduce space between items
-\item ``TRUS-Integrated FD-DOI Multi-modal Imaging System for Prostate Cancer," US Provisional Patent Application Serial No. 61/985,905, April 2014. 
+\item ''TRUS-Integrated FD-DOI Multi-modal Imaging System for Prostate Cancer," US Provisional Patent Application Serial No. 61/985,905, April 2014. 
 \end{itemize}
+
+
+\vspace{-5mm}  % Some whitespace between sections
+%----------------------------------------------------------------------------------------
+%	HONORS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{{Honors}} 
+
+%\vspace{-5pt} % Reduce space between section title and contents
+\begin{itemize} \itemsep -2pt 
+\item STEM Full tuition assistantship, University of Texas Arlington. \\
+\item Outstanding Student Award - 2014, University of Texas Arlington. \\
+\end{itemize}
+%----------------------------------------------------------------------------------------
+
+
 
 
 %----------------------------------------------------------------------------------------
@@ -207,7 +204,7 @@ Lasers \& LEDs & Optoelectronics &Photon Counting &DAQ boards &Free Space Optics
 \vspace{-2mm} % Reduce space between section title and contents
 
 \begin{itemize} \itemsep -2pt 
-\item Member, International Professional Society for Optics and Photonics Technology(SPIE).
+\item Member,  International Society for Optics and Photonics(SPIE).
 \item Member, Optical Society of America(OSA). 
 \item Member, Institute of Electrical and Electronics Engineers(IEEE). 
 \end{itemize}
@@ -216,30 +213,17 @@ Lasers \& LEDs & Optoelectronics &Photon Counting &DAQ boards &Free Space Optics
 
 \vspace{-5mm} % Some whitespace between sections
 
-%----------------------------------------------------------------------------------------
-%	HONORS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{{Honors}} 
-
-\vspace{-5pt} % Reduce space between section title and contents
-\begin{itemize} \itemsep -2pt 
-\item STEM Full tuition assistantship, University of Texas Arlington. \\
-\item Outstanding Student Award - 2014, University of Texas Arlington. \\
-\end{itemize}
-%----------------------------------------------------------------------------------------
-
-\vspace{-7mm}  % Some whitespace between sections
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS SECTION
 %----------------------------------------------------------------------------------------
 
 \section{{Publications}} 
-\vspace{-5pt} 
-\printbibliography[title={Articles},type=article,heading=subbibliography]
-\vspace{-6mm}
-\printbibliography[title={Conference Publications},type=inproceedings,heading=subbibliography]
+\printbibliography[title={Journal Publications},type=article,heading=subbibliography,resetnumbers=true]
+%\vspace{-6mm}
+\printbibliography[title={Conference Publications},type=inproceedings,heading=subbibliography,resetnumbers=true]
+
+
 
 %----------------------------------------------------------------------------------------
 

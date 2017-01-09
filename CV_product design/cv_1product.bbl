@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.5 $
+% $ biblatex version 2.6 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,11 +16,285 @@
   {}
 \endgroup
 
+\entry{ban2016heterodyne}{article}{}
+  \name{author}{14}{}{%
+    {{}%
+     {Ban}{B.}%
+     {Han~Y}{H.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schweiger}{S.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {\textbf{V. C. Kavuri}}{t.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cochran}{C.}%
+     {Jeffery~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xie}{X.}%
+     {Long}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Busch}{B.}%
+     {David~R}{D.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Katrasnik}{K.}%
+     {Jaka}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pathak}{P.}%
+     {Saurav}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chung}{C.}%
+     {So~Hyun}{S.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Kijoon}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Choe}{C.}%
+     {Regine}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Czerniecki}{C.}%
+     {Brian}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arridge}{A.}%
+     {Simon~R}{S.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yodh}{Y.}%
+     {Arjun~G}{A.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Association of Physicists in Medicine}%
+  }
+  \strng{namehash}{BHYSMt+1}
+  \strng{fullhash}{BHYSMtCJMXLBDRKJPSCSHLKCRCBASRYAG1}
+  \field{sortinit}{7}
+  \field{title}{Heterodyne frequency-domain multispectral diffuse optical
+  tomography of breast cancer in the parallel-plane transmission geometry}
+  \field{volume}{Under Review, \textbf{Equal Contribution} and Corresponding
+  Author}
+  \field{journaltitle}{Medical Physics}
+  \field{year}{2016}
+\endentry
+
+\entry{parthasarathy2016functional}{inproceedings}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Parthasarathy}{P.}%
+     {Ashwin~B}{A.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gannon}{G.}%
+     {Kimberly}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baker}{B.}%
+     {Wesley~B}{W.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {\textbf{V. C. Kavuri}}{t.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mullen}{M.}%
+     {Michael~T}{M.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Detre}{D.}%
+     {John~A}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yodh}{Y.}%
+     {Arjun~G}{A.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{2}{%
+    {International Society for Optics}%
+    {Photonics}%
+  }
+  \strng{namehash}{PABGKBWB+1}
+  \strng{fullhash}{PABGKBWBtMMTDJAYAG1}
+  \field{sortinit}{7}
+  \field{booktitle}{SPIE BiOS}
+  \field{pages}{97070H\bibrangedash 97070H}
+  \field{title}{Functional monitoring of blood flow dynamics in brain with
+  photon correlation techniques}
+  \field{year}{2016}
+\endentry
+
+\entry{wang2016fast}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Wang}{W.}%
+     {Detian}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parthasarathy}{P.}%
+     {Ashwin~B}{A.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baker}{B.}%
+     {Wesley~B}{W.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gannon}{G.}%
+     {Kimberly}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {\textbf{V. C. Kavuri}}{t.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ko}{K.}%
+     {Tiffany}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schenkel}{S.}%
+     {Steven}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Zhe}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Zeren}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mullen}{M.}%
+     {Michael~T}{M.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Optical Society of America}%
+  }
+  \strng{namehash}{WDPABBWB+1}
+  \strng{fullhash}{WDPABBWBGKtKTSSLZLZMMT+1}
+  \field{sortinit}{7}
+  \field{number}{3}
+  \field{pages}{776\bibrangedash 797}
+  \field{title}{Fast blood flow monitoring in deep tissues with real-time
+  software correlators}
+  \field{volume}{7}
+  \field{journaltitle}{Biomedical Optics Express}
+  \field{year}{2016}
+\endentry
+
+\entry{chen2015multi}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Chen}{C.}%
+     {Chen}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {\textbf{V. C. Kavuri}}{t.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Xinlong}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Ruoyu}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Hanli}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huang}{H.}%
+     {Junzhou}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{CCtWX+1}
+  \strng{fullhash}{CCtWXLRLHHJ1}
+  \field{sortinit}{7}
+  \field{booktitle}{Biomedical Imaging (ISBI), 2015 IEEE 12th International
+  Symposium on}
+  \field{pages}{67\bibrangedash 70}
+  \field{title}{Multi-frequency diffuse optical tomography for cancer
+  detection}
+  \field{year}{2015}
+\endentry
+
+\entry{kavuri2014development}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kavuri}{K.}%
+     {Venkaiah~Chowdary}{V.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Biomedical Engineering}%
+  }
+  \strng{namehash}{KVC1}
+  \strng{fullhash}{KVC1}
+  \field{sortinit}{7}
+  \field{title}{Development Of Trans-rectal Ultrasound (TRUS) Coupled Diffuse
+  Optical Tomography (DOT) For Prostate Cancer Imaging}
+  \field{year}{2014}
+\endentry
+
 \entry{kavuri2014optical}{inproceedings}{}
   \name{author}{6}{}{%
     {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~C}{V.~C.}%
+     {\textbf{V. C. Kavuri}}{t.}%
+     {}{}%
      {}{}%
      {}{}}%
     {{}%
@@ -52,9 +326,9 @@
   \list{organization}{1}{%
     {Optical Society of America}%
   }
-  \strng{namehash}{KVCKPMM+1}
-  \strng{fullhash}{KVCKPMMCJRCLH1}
-  \field{sortinit}{K}
+  \strng{namehash}{tKPMM+1}
+  \strng{fullhash}{tKPMMCJRCLH1}
+  \field{sortinit}{7}
   \field{booktitle}{Biomedical Optics}
   \field{pages}{BM3A\bibrangedash 28}
   \field{title}{Optical properties of Ex-Vivo Prostate Tissues and the Design
@@ -62,83 +336,11 @@
   \field{year}{2014}
 \endentry
 
-\entry{kavuri2012comparison}{inproceedings}{}
-  \name{author}{3}{}{%
+\entry{kavuri2014hierarchical}{article}{}
+  \name{author}{2}{}{%
     {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~C}{V.~C.}%
+     {\textbf{V. C. Kavuri}}{t.}%
      {}{}%
-     {}{}}%
-    {{}%
-     {Lin}{L.}%
-     {Zi-Jing}{Z.-J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Liu}{L.}%
-     {Hanli}{H.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{organization}{1}{%
-    {Optical Society of America}%
-  }
-  \strng{namehash}{KVCLZJLH1}
-  \strng{fullhash}{KVCLZJLH1}
-  \field{sortinit}{K}
-  \field{booktitle}{Biomedical Optics}
-  \field{pages}{BTu3A\bibrangedash 22}
-  \field{title}{Comparison of L1 and L2 Regularizations in Diffuse Optical
-  Tomography}
-  \field{year}{2012}
-\endentry
-
-\entry{kavuri2012hetero}{inproceedings}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~C}{V.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lin}{L.}%
-     {Zi-Jing}{Z.-J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Liu}{L.}%
-     {Hanli}{H.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{organization}{1}{%
-    {Optical Society of America}%
-  }
-  \strng{namehash}{KVCLZJLH1}
-  \strng{fullhash}{KVCLZJLH1}
-  \field{sortinit}{K}
-  \field{booktitle}{Biomedical Optics}
-  \field{pages}{BTu3A37}
-  \field{title}{Heterogeneous Hierarchical Segmentation Method for Improved
-  Prostate Cancer Imaging In Diffuse Optical Tomography: Simulation Study}
-  \field{year}{2012}
-\endentry
-
-\entry{kavuri2012sparsity}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~C}{V.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lin}{L.}%
-     {Zi-Jing}{Z.-J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Tian}{T.}%
-     {Fenghua}{F.}%
      {}{}%
      {}{}}%
     {{}%
@@ -148,25 +350,25 @@
      {}{}}%
   }
   \list{publisher}{1}{%
-    {Optical Society of America}%
+    {Elsevier}%
   }
-  \strng{namehash}{KVCLZJTF+1}
-  \strng{fullhash}{KVCLZJTFLH1}
-  \field{sortinit}{K}
-  \field{number}{5}
-  \field{pages}{943\bibrangedash 957}
-  \field{title}{Sparsity enhanced spatial resolution and depth localization in
-  diffuse optical tomography}
-  \field{volume}{3}
-  \field{journaltitle}{Biomedical optics express}
-  \field{year}{2012}
+  \strng{namehash}{tLH1}
+  \strng{fullhash}{tLH1}
+  \field{sortinit}{7}
+  \field{number}{2}
+  \field{pages}{250\bibrangedash 262}
+  \field{title}{Hierarchical clustering method to improve transrectal
+  ultrasound-guided diffuse optical tomography for prostate cancer imaging}
+  \field{volume}{21}
+  \field{journaltitle}{Academic radiology}
+  \field{year}{2014}
 \endentry
 
 \entry{kavuri2013hierarchical}{inproceedings}{}
   \name{author}{2}{}{%
     {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~C}{V.~C.}%
+     {\textbf{V. C. Kavuri}}{t.}%
+     {}{}%
      {}{}%
      {}{}}%
     {{}%
@@ -179,9 +381,9 @@
     {International Society for Optics}%
     {Photonics}%
   }
-  \strng{namehash}{KVCLH1}
-  \strng{fullhash}{KVCLH1}
-  \field{sortinit}{K}
+  \strng{namehash}{tLH1}
+  \strng{fullhash}{tLH1}
+  \field{sortinit}{7}
   \field{booktitle}{SPIE BiOS}
   \field{pages}{85781K\bibrangedash 85781K}
   \field{title}{Hierarchical clustering method for improved prostate cancer
@@ -189,68 +391,16 @@
   \field{year}{2013}
 \endentry
 
-\entry{kavuri2014hierarchical}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~C}{V.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Liu}{L.}%
-     {Hanli}{H.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Elsevier}%
-  }
-  \strng{namehash}{KVCLH1}
-  \strng{fullhash}{KVCLH1}
-  \field{sortinit}{K}
-  \field{number}{2}
-  \field{pages}{250\bibrangedash 262}
-  \field{title}{Hierarchical clustering method to improve transrectal
-  ultrasound-guided diffuse optical tomography for prostate cancer imaging}
-  \field{volume}{21}
-  \field{journaltitle}{Academic radiology}
-  \field{year}{2014}
-\endentry
-
-\entry{kavuri2014development}{thesis}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~Chowdary}{V.~C.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Biomedical Engineering}%
-  }
-  \strng{namehash}{KVC1}
-  \strng{fullhash}{KVC1}
-  \field{sortinit}{K}
-  \field{title}{Development Of Trans-rectal Ultrasound (trus) Coupled Diffuse
-  Optical Tomography (dot) For Prostate Cancer Imaging}
-  \field{year}{2014}
-\endentry
-
-\entry{krishnamurthy2010detectability}{inproceedings}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Krishnamurthy}{K.}%
-     {Venkatagiri}{V.}%
-     {}{}%
-     {}{}}%
+\entry{kavuri2012heterogeneous}{inproceedings}{}
+  \name{author}{3}{}{%
     {{}%
      {Kavuri}{K.}%
      {Venkaiah}{V.}%
      {}{}%
      {}{}}%
     {{}%
-     {Tian}{T.}%
-     {Fenghua}{F.}%
+     {Lin}{L.}%
+     {Zi-Jing}{Z.-J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -262,53 +412,13 @@
   \list{organization}{1}{%
     {Optical Society of America}%
   }
-  \strng{namehash}{KVKVTF+1}
-  \strng{fullhash}{KVKVTFLH1}
-  \field{sortinit}{K}
+  \strng{namehash}{KVLZJLH1}
+  \strng{fullhash}{KVLZJLH1}
+  \field{sortinit}{7}
   \field{booktitle}{Biomedical Optics}
-  \field{pages}{BTuD103}
-  \field{title}{Detectability of Hemodynamic Response to Thermal Pain in
-  Pre-Frontal Cortex Using Diffuse Optical Tomography}
-  \field{year}{2010}
-\endentry
-
-\entry{nguyen2012multifunctionality}{inproceedings}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Nguyen}{N.}%
-     {Kytai~T}{K.~T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Patel}{P.}%
-     {Ronak~H}{R.~H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Patel}{P.}%
-     {Nimet~L}{N.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~C}{V.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Liu}{L.}%
-     {Hanli}{H.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {SPIE}%
-  }
-  \strng{namehash}{NKTPRHPNL+1}
-  \strng{fullhash}{NKTPRHPNLKVCLH1}
-  \field{sortinit}{N}
-  \field{title}{Multifunctionality of indocyanine green-loaded biodegradable
-  nanoparticles for enhanced optical imaging and hyperthermia intervention of
-  cancer}
+  \field{pages}{BTu3A\bibrangedash 37}
+  \field{title}{Heterogeneous Hierarchical Segmentation Method for Improved
+  Prostate Cancer Imaging In Diffuse Optical Tomography: Simulation Study}
   \field{year}{2012}
 \endentry
 
@@ -330,8 +440,8 @@
      {}{}%
      {}{}}%
     {{}%
-     {Kavuri}{K.}%
-     {Venkaiah~C}{V.~C.}%
+     {\textbf{V. C. Kavuri}}{t.}%
+     {}{}%
      {}{}%
      {}{}}%
     {{}%
@@ -350,8 +460,8 @@
     {Photonics}%
   }
   \strng{namehash}{PRHWASPNL+1}
-  \strng{fullhash}{PRHWASPNLKVCNKTLH1}
-  \field{sortinit}{P}
+  \strng{fullhash}{PRHWASPNLtNKTLH1}
+  \field{sortinit}{7}
   \field{number}{4}
   \field{pages}{0460031\bibrangedash 04600310}
   \field{title}{Multifunctionality of indocyanine green-loaded biodegradable
@@ -360,6 +470,111 @@
   \field{volume}{17}
   \field{journaltitle}{Journal of biomedical optics}
   \field{year}{2012}
+\endentry
+
+\entry{kavuri2012comparison}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {\textbf{V. C. Kavuri}}{t.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Zi-Jing}{Z.-J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Hanli}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Optical Society of America}%
+  }
+  \strng{namehash}{tLZJLH1}
+  \strng{fullhash}{tLZJLH1}
+  \field{sortinit}{7}
+  \field{booktitle}{Biomedical Optics}
+  \field{pages}{BTu3A\bibrangedash 22}
+  \field{title}{Comparison of L1 and L2 Regularizations in Diffuse Optical
+  Tomography}
+  \field{year}{2012}
+\endentry
+
+\entry{kavuri2012sparsity}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {\textbf{V. C. Kavuri}}{t.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Zi-Jing}{Z.-J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tian}{T.}%
+     {Fenghua}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Hanli}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Optical Society of America}%
+  }
+  \strng{namehash}{tLZJTF+1}
+  \strng{fullhash}{tLZJTFLH1}
+  \field{sortinit}{7}
+  \field{number}{5}
+  \field{pages}{943\bibrangedash 957}
+  \field{title}{Sparsity enhanced spatial resolution and depth localization in
+  diffuse optical tomography}
+  \field{volume}{3}
+  \field{journaltitle}{Biomedical optics express}
+  \field{year}{2012}
+\endentry
+
+\entry{krishnamurthy2010detectability}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Krishnamurthy}{K.}%
+     {Venkatagiri}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {\textbf{V. C. Kavuri}}{t.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tian}{T.}%
+     {Fenghua}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Hanli}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Optical Society of America}%
+  }
+  \strng{namehash}{KVtTF+1}
+  \strng{fullhash}{KVtTFLH1}
+  \field{sortinit}{7}
+  \field{booktitle}{Biomedical Optics}
+  \field{pages}{BTuD103}
+  \field{title}{Detectability of Hemodynamic Response to Thermal Pain in
+  Pre-Frontal Cortex Using Diffuse Optical Tomography}
+  \field{year}{2010}
 \endentry
 
 \lossort
